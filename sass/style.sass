@@ -39,6 +39,29 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
       &:last-child
         margin-right: 0
 
+
+.button-link
+  cursor: pointer
+
+.button-book
+  cursor: pointer
+  width: 200px
+  height: 60px
+  border-radius: 100px
+  background-color: $color-orange
+  border: 0
+  padding: 11px 24px
+  color: white
+  font-size: 18px
+
+.question-block
+  display: flex
+  gap: 12px
+  align-items: center
+  &__text
+    width: 82px
+    height: 34px
+
 .left-wrapper
   position: relative
   img
@@ -77,10 +100,13 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
     border-radius: 100px
     box-shadow: $shadow
     rotate: -36.15deg
-.button
-  cursor: pointer
+
 .right-wrapper
+  display: flex
+  flex-wrap: wrap
+  align-content: flex-start
   position: relative
+  z-index: 5
   top: 150px
   right: 180px
   width: 372px
@@ -88,12 +114,29 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
   &__icon-box
     display: flex
     gap: 17px
-  &__button
+    height: 40px
+    padding: 0 0 0 10px
+  &__link
     width: 40px
     height: 40px
   &__title
     font-size: 72px
     line-height: 93.9%
+    width: 353px
+  &__line
+    border: 1px solid black
+    width: 65px
+    margin: 0 0 5px 0
+  &__description
+    font-size: 16px
+    margin-bottom: 20px
+  &__question-block
+    position: relative
+    left: 32px
+
+
+
+
 
 
 
