@@ -373,6 +373,7 @@ table {
   height: 800px;
   background: #F0F0F0;
   padding-top: 16px;
+  margin-bottom: 32px;
 }
 .main-section__nav-container {
   display: flex;
@@ -380,6 +381,7 @@ table {
   justify-content: space-between;
   height: 69px;
   align-items: center;
+  margin-bottom: 6px;
 }
 .main-section__logo {
   width: 134px;
@@ -416,12 +418,13 @@ table {
   font-size: 18px;
 }
 
-.question-block {
+.question-button {
   display: flex;
   gap: 12px;
   align-items: center;
+  cursor: pointer;
 }
-.question-block__text {
+.question-button__text {
   width: 82px;
   height: 34px;
 }
@@ -505,9 +508,67 @@ table {
   font-size: 16px;
   margin-bottom: 20px;
 }
-.right-wrapper__question-block {
+.right-wrapper__button-question {
   position: relative;
   left: 32px;
+}
+
+.box-item {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  position: relative;
+}
+.box-item__image {
+  position: relative;
+  width: 197px;
+  height: 335px;
+  top: 25px;
+  right: 163px;
+  left: 0;
+  bottom: 0;
+}
+.box-item__title {
+  display: flex;
+  align-self: center;
+  rotate: 90deg;
+  flex-wrap: wrap;
+  font-size: 36px;
+  padding: 50px 0 25px 0;
+  text-align: center;
+}
+
+.second-section {
+  height: 700px;
+  background: #FFFFFF;
+}
+.second-section__title {
+  font-size: 72px;
+}
+.second-section__line {
+  border: 1px solid black;
+  width: 94px;
+  margin: 10px 0 40px 0;
+}
+.second-section__items {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.second-section__item_color-grey {
+  background-color: #E2E2E2;
+}
+.second-section__item_color-orange {
+  background-color: #F28B64;
+}
+.second-section__item_color-blue {
+  background-color: #5290EA;
+}
+.second-section__achievements {
+  width: 1035px;
+  height: 99px;
+  border: 1px solid black;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
