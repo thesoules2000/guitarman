@@ -364,6 +364,11 @@ table {
   box-sizing: border-box;
 }
 
+.icon-box {
+  display: flex;
+  gap: 17px;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -417,6 +422,7 @@ table {
   height: 60px;
   border-radius: 100px;
   background-color: #F28B64;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border: 0;
   padding: 11px 24px;
   color: white;
@@ -517,6 +523,7 @@ table {
 .title {
   font-size: 72px;
   line-height: 93.9%;
+  font-weight: 600;
 }
 .title__line {
   border: 1px solid black;
@@ -637,7 +644,6 @@ table {
 }
 
 .second-wrapper {
-  border: 1px solid black;
   width: 479px;
   height: 548px;
   position: relative;
@@ -646,12 +652,35 @@ table {
 .second-wrapper__text {
   margin-bottom: 30px;
 }
+.second-wrapper__text_title {
+  position: relative;
+  left: 7px;
+}
 .second-wrapper__text_line {
   position: relative;
   top: -65px;
+  left: 7px;
 }
 .second-wrapper__buttons {
   display: flex;
+  gap: 32px;
+}
+
+.footer-section__content-container {
+  display: flex;
+}
+.footer-section__image {
+  position: relative;
+  left: -150px;
+}
+
+.footer-section__links_title {
+  padding-top: 39px;
+  margin-bottom: 20px;
+}
+.footer-section__links_line {
+  position: relative;
+  top: -90px;
 }
 
 /*# sourceMappingURL=style.css.map */

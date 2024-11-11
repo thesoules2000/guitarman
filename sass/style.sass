@@ -9,6 +9,9 @@ $color-orange: #F28B64
 $color-grey: #E2E2E2
 $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
 
+.icon-box
+  display: flex
+  gap: 17px
 .container
   max-width: 1140px
   margin: 0 auto
@@ -54,6 +57,7 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
   height: 60px
   border-radius: 100px
   background-color: $color-orange
+  box-shadow: $shadow
   border: 0
   padding: 11px 24px
   color: white
@@ -139,6 +143,7 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
 .title
   font-size: 72px
   line-height: 93.9%
+  font-weight: 600
   &__line
     border: 1px solid black
     width: 65px
@@ -237,18 +242,38 @@ $shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
       line-height: 89.9%
 
 .second-wrapper
-  border: 1px solid black
   width: 479px
   height: 548px
   position: relative
   top: 46px
   &__text
     margin-bottom: 30px
+    &_title
+      position: relative
+      left: 7px
     &_line
       position: relative
       top: -65px
+      left: 7px
   &__buttons
     display: flex
+    gap: 32px
+
+.footer-section
+  &__content-container
+    display: flex
+  &__image
+    position: relative
+    left: -150px
+
+.footer-section__links
+  &_title
+    padding-top: 39px
+    margin-bottom: 20px
+  &_line
+    position: relative
+    top: -90px
+
 
 
 
